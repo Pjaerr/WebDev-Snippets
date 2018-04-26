@@ -66,4 +66,18 @@ background: -webkit-linear-gradient(to right/left, FIRST_COLOUR, SECOND_COLOUR);
 background: linear-gradient(to right/left, FIRST_COLOUR, SECOND_COLOUR); 
 ```
 
+#### Make a DIV fill the entire page
+
+```
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.fullpage-div {
+    min-height: 100%;
+}
+```
+
 
