@@ -80,4 +80,12 @@ body {
 }
 ```
 
+#### Get all elements matching a class containing a set pattern
+
+eg: Get all classes that have a class on them such as link-0, link-1, link-2 etc by checking for link- 
+
+```
+let classes = document.querySelectorAll('[class*= "link-"]');
+```
+
 
