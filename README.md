@@ -89,3 +89,16 @@ let classes = document.querySelectorAll('[class*= "link-"]');
 ```
 
 
+#### Center a position:fixed; element
+
+```
+.element
+{
+    top: 50%;
+    left: 50%;
+    
+    margin-left: -HALF_WIDTH;
+    margin-top: -HALF_HEIGHT;
+}
+```
+
