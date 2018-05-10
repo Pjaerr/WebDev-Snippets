@@ -102,3 +102,19 @@ let classes = document.querySelectorAll('[class*= "link-"]');
 }
 ```
 
+#### Ensure text in a flexbox wraps in IE
+Explicitly set the width of both the parent flex box and the element holding the text that needs to wrap
+
+```
+.box
+{
+    display: flex;
+    width: 100%;
+}
+
+.box > p
+{
+    width: 100%;
+}
+```
+
