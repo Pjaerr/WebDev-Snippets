@@ -118,3 +118,17 @@ Explicitly set the width of both the parent flex box and the element holding the
 }
 ```
 
+#### Position an element fixed but relative to its parent
+Ensure the parent element is positioned as anything but ```static``` and then:
+
+```
+.parent
+{
+    position: relative;
+}
+.child
+{
+    position: absolute;
+}
+```
+
