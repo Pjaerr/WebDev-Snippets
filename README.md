@@ -4,7 +4,7 @@ A place to store useful web dev snippets I use. They aren't in any specific orde
 
 
 #### Material Design Card (Box Shadow)
-```box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);```
+```box-shadow: rgba(0, 0, 0, 0.19) 0px 2.5px 5px 0px, rgba(0, 0, 0, 0.23) -2px 1px 6px 0px;```
 
 #### Flex Box Boostrap-esque Grid/Columns
 
