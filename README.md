@@ -80,6 +80,33 @@ body {
 }
 ```
 
+#### ^ Achieve the same but on a React App that is using CSS Modules
+Add The following to the public/index.html file
+```
+<style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #root {
+      display: flex;
+      min-height: 100%;
+      max-width: 100%;
+    }
+  </style>
+```
+and then set
+```
+.App
+{
+    width: 100%;
+}
+```
+where App is the className applied to the container that holds all other components at the highest level.
+
 #### Get all elements matching a class containing a set pattern
 
 eg: Get all classes that have a class on them such as link-0, link-1, link-2 etc by checking for link- 
