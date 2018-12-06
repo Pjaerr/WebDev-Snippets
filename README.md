@@ -159,3 +159,8 @@ Ensure the parent element is positioned as anything but ```static``` and then:
 }
 ```
 
+#### Give an element with a background image a subtle dark overlay
+
+```
+background-image: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url('MY_URL')';
+```
