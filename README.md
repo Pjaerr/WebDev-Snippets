@@ -43,7 +43,7 @@ other columns in the grid*/
 
 
 /*Reset the columns into a single column for a smaller screen size. 
-(400px abritrary breakpoint)*/
+(400px arbitrary breakpoint)*/
 @media (max-width: 400px)
 {
   .grid
