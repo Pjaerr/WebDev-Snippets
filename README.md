@@ -164,3 +164,10 @@ Ensure the parent element is positioned as anything but ```static``` and then:
 ```
 background-image: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url('MY_URL')';
 ```
+
+#### JavaScript snippet to generate a random number between `min` and `max` inclusive
+```
+const randomNumber = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+```
